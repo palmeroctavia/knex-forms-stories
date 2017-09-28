@@ -7,7 +7,7 @@
     <a href="/users/new"><h2>Add New User</h2></a>
     <ul>
     {{#each users}}
-      <li>{{name}} ({{email}})</li>
+      <li><a href="/users/{{id}}">{{name}}</a>({{email}})</li>
     {{/each}}
     </ul>
   </body>
